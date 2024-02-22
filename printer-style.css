@@ -1,0 +1,183 @@
+.header {
+    background-position: center center;
+    background-image: url("../printer-img/header.png"),linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+  }
+  
+  p {
+    font-size: 16px !important;
+  }
+  
+  .font-16{
+  font-size:21px !important;
+  }
+  
+  .channext-btn1 {
+    background-color: #0171b8 !important;
+    color: white !important;
+    border: 2px solid #0171b8 !important;
+    padding: 5px 25px;
+  }
+  .channext-btn1:hover {
+    background-color: transparent !important;
+    border: 2px solid #0171b8 !important;
+    color: #0171b8 !important;
+  }
+  
+  .sand {
+    background-color: #dfd1a7;
+  }
+  
+  .light-grey {
+    background-color: #ecf0f0;
+  }
+  
+  .medium {
+    font-weight: 600 !important;
+  }
+  
+  .link {
+    color: #0171b8 !important;
+  }
+  
+  .bold {
+    font-weight: 600;
+  }
+  
+  .dash {
+    list-style-type: "- ";
+  }
+  
+  .check {
+    list-style-type: "\2713 ";
+  }
+  
+  ul {
+    margin-left: -25px;
+    font-size: 16px !important;
+  }
+  
+  .desktop-only {
+    display: block;
+  }
+  
+  a{
+  font-size: 16px !important;
+  }
+  
+  a:hover{
+      color:#025b92 !important;
+      text-decoration: underline;
+  }
+  
+  /* card */
+  
+  .info_card {
+    background: white(3, 85, 3);
+    color: black;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 992px) {
+    .mb-mobile {
+      margin-bottom: 5%;
+    }
+  
+    .desktop-only {
+      display: none;
+    }
+  }
+      
+      @media (min-width: 992px) { 
+      .info1{
+  height: 445px;
+  object-fit: cover;
+      }
+  
+  .info2{
+      height: 423px;
+      object-fit: cover;
+      }
+      
+  .info3 {
+      height: 450px;
+      object-fit: cover;
+      }
+      
+  .info_card:hover {
+    transform: scale(1.05);
+  }
+       }
+  
+  /* form */
+  
+  form input,
+  #field-options {
+    margin: 0.3rem 0;
+    padding: 0 20px;
+    background: #f7f7f7;
+    border: 2px solid #fff;
+    border-radius: 15px;
+  }
+  
+  form input:not([type="checkbox"]) {
+    width: 100%;
+    height: 45px;
+  }
+  
+  form label {
+    display: none;
+  }
+  
+  form label[for="field-options"] {
+    display: inline-block;
+  }
+  
+  #field-options {
+    width: 100%;
+    height: 45px;
+  }
+  
+  form input:focus {
+    border: 2px solid #F7F7F7;
+    background: #fff;
+    outline: 0;
+  }
+  
+  form button {
+    margin-top: 1.5rem;
+    background-color: #cc0000;
+    color: transparent;
+  }
+  
+  
+  
+  form button{
+      background-color: #cc0000 !important;
+      color: #fff !important;
+      border: 2px solid #cc0000 !important;
+      padding: 5px 25px;
+      font-size: 16px !important;
+  }
+  
+  form button:hover {
+    background-color: transparent !important;
+    border: 2px solid #cc0000 !important;
+    color: #cc0000 !important;
+  }
+  
+  .fieldinformation.checkbox {
+    margin-bottom: 1rem;
+  }
+  
+  .checkbox label {
+    display: inline;
+  }
